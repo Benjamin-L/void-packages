@@ -1,0 +1,15 @@
+# Template file for 'python-pycdio'
+pkgname=python-pycdio
+version=2.0.0
+revision=1
+wrksrc=pycdio-2.0.0
+build_style=python2-module
+hostmakedepends=""
+makedepends="python-setuptools python-devel libcdio-devel swig pkg-config"
+depends="python-setuptools libcdio"
+short_desc="Python OO interface to libcdio (CD Input and Control library)"
+maintainer="Benjamin Lee <benjamin@chronicembetterment.org>"
+license="GPL-3"
+homepage="http://www.gnu.org/software/libcdio"
+distfiles="ftp://ftp.gnu.org/pub/gnu/libcdio/pycdio-${version}.tar.gz"
+checksum=128e9ae12233f7e5a9a2be6d03d2d836a04d99b44c41dc9312ca14ea2a0530a8
